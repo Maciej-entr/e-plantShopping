@@ -25,7 +25,7 @@ function App() {
          <h1>Welcome To Paradise Nursery</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
-         
+          
           <button className="get-started-button" onClick={handleGetStartedClick}>
             Get Started
           </button>
@@ -39,7 +39,10 @@ function App() {
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
         <ProductList onHomeClick={handleHomeClick}/>
       </div>
+     
     </div>
+
+    
   );
 }
 
